@@ -1,0 +1,61 @@
+@German.Apocalypse: .ttf;{
+    font-family"test"
+    src:url("font/German")
+
+}
+
+
+
+h1{
+    color:blue;
+    letter-spacing: 20px;
+    word-spacing: 40px;
+    text-align: center;
+
+}
+
+
+p{
+
+   text-align: center;
+   text-indent: 50px;
+   font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+h2{
+   
+   text-decoration: overline;
+
+}
+
+
+h3{
+
+ text-decoration: line-through;
+
+}
+
+
+
+h4{
+
+ text-decoration: underline;
+}
+
+.test{
+      color: rgb(71, 101, 236);
+      font-size: 30px;
+      text-align: center;
+
+}
+
+#test_id{
+
+text-align: center;
+font-size: 25px;
+color:red;
+font-style: italic;
+}
