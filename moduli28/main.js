@@ -34,9 +34,17 @@ button5.onmousewheel = function(){
 var btn1 = document. getElementById ("btn1");
 var btn2 = document. getElementById ("btn2");
 var txt1 = document. getElementById  ("txt1")
-
+var txt2=document.getElementById("txt3")
 
 btn1.onclick = function (){
-
+      
     txt1.style.color="red"
+    txt1.style.backgroundColor="grey"
+    txt1.style.textAlign="Center"
+    txt1.style.fontSize="150px"
+    txt2.setAttribute("class","txt2")
 }
+
+
+       this.setAttribute("class","txt2")
+
