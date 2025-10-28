@@ -28,9 +28,17 @@
 // document.getElementById('result4').innerHTML = text.match(regex)
 
 
+// var text="My school is the best school";
+// var regex=/\s/g;
+// document.getElementById("result").innerHTML = text.match(regex);
 
-var text= "My school is the best school of all school 10";
-var regex= /[0-9]/g;
+// var text="hello helooo hellooo"
+// var regex=/o{3}/g;
+// document.getElementById("result").innerHtml = text.match(regex);
 
-document.getElementById('result4').innerHTML = text.match(regex)
+var text="hello helooo hellooo  hellooooo helloooooooo"
+var regex=/o{3,5}/g;
+document.getElementById("result").innerHtml = text.match(regex);
+
+
 
