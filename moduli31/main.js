@@ -1,35 +1,38 @@
 
 
- //For in
+//  //For in
   
-var person = {fistname: "Marcus", lastName: "Rashford", age: 25};
+// var person = {fistname: "Marcus", lastName: "Rashford", age: 25};
 
-var text = '';
+// var text = '';
 
-var z;
+// var z;
 
-for (z in person){
+// for (z in person){
 
-text += person[z];
+// text += person[z];
 
-}
-console.log(text);
+// }
+// console.log(text);
  
-// For of
+// // For of
 
-var names = ["Marcus","Lumi"];
+// var names = ["Marcus","Lumi"];
 
-var y;
+// var y;
 
-for( y of names){
-console.log(y)
-}
+// for( y of names){
+// console.log(y)
+// }
 
-var text = 'Javascript'
+// var text = 'Javascript'
 
-var 1;
+// var 1;
 
-for(1 of text){
+// for(1 of text){
 
-console.log(1);
-}
+// console.log(1);
+// }
+
+// var text ="My school is nthe best";
+// var regex =/\s/g;
