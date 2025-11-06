@@ -34,5 +34,5 @@
 // console.log(1);
 // }
 
-// var text ="My school is nthe best";
-// var regex =/\s/g;
+var text ="My school is nthe best";
+var regex =/\s/g;
