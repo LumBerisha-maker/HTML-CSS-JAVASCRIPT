@@ -1,30 +1,16 @@
-// function printNames(){
 
-//     document.write("Lum");
-//     document.write("<br>");
-//     setTimeout(function(){
-//         document.write("Jora");
-//     }, 3000   );
-//      document.write("Drin");
 
-// }
+var slides=document.getElementsByClassName("slide");
 
-// printNames();
+var slideIndex=0
 
-var colors = ['red','blue','pink'];
+function showSlide(i){
+    slideIndex = (i + slides.length)%slides.length;
 
-function changeBg(){
-    document.querySelector('body').style.background=
-    colors[Math.floor(Math.random()*colors.length)];
+       for(let s of slides)s.Style.display = "none";
+       slides[slideIndex].style.display = "block";
 }
 
-setInterval(changeBg, 1000);
+showSlide(0);
 
-var names= ['Lum','Jora','Drini'];
-
-function changeNames(){
-    document.querySelector('p').innerHTML=
-    names[Math.floor(Math.random()*names.length)];
-}
-
-setInterval(changeNames, 1000);
+setInterval(()=>showSlide(slideIndex+1), 2000)
