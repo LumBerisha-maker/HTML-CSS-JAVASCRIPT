@@ -15,7 +15,7 @@
 
     <h1 id="result"></h1>
 
-    <form onsubmit="return validation();"method="POST">
+    <form onsubmit="return validation();">
         <div class="name-container">
             <label id="name_label">Name:</label>
             <input type="text" id="name">
@@ -25,6 +25,11 @@
             <label id="age_label">Age:</label>
             <input type="number" id="age">
             <span id="age_error">Please enter a valid age</span>
+        </div>
+                <div class="email-container">
+            <label id="email_label">Email: </label>
+            <input type="text" id="email">
+            <span id="email_error">Please enter a valid email</span>
         </div>
         <button type="submit">Send</button>
     </form>

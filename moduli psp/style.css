@@ -7,3 +7,9 @@
     visibility: hidden;
     color:red;
 }
+
+
+#email_error{
+    visibility: hidden;
+    color:red;
+}
